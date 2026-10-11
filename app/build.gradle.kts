@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace = "de.fantasyscout.app"
-    compileSdk = 36
+    compileSdk = 37
 
     defaultConfig {
         applicationId = "de.fantasyscout.app"
