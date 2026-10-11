@@ -2,7 +2,7 @@
 setlocal
 set APP_HOME=%~dp0
 set WRAPPER_JAR=%APP_HOME%gradle\wrapper\gradle-wrapper.jar
-set WRAPPER_URL=https://raw.githubusercontent.com/gradle/gradle/v9.6.0/gradle/wrapper/gradle-wrapper.jar
+set WRAPPER_URL=https://raw.githubusercontent.com/gradle/gradle/v9.4.0/gradle/wrapper/gradle-wrapper.jar
 if exist "%WRAPPER_JAR%" goto run
 where curl >nul 2>nul
 if errorlevel 1 (
